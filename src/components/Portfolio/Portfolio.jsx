@@ -6,6 +6,8 @@ import IMG3 from "../../assets/portfolio3.PNG";
 import IMG4 from "../../assets/portfolio4.PNG";
 import IMG5 from "../../assets/portfolio5.PNG";
 import IMG6 from "../../assets/portfolio6.png";
+import IMG7 from "../../assets/portfolio7.png";
+import IMG8 from "../../assets/portfolio8.png";
 
 const Portfolio = () => {
   return (
@@ -146,6 +148,59 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+                <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Wonder Tour App</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/wander-tour-app"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://wonder-tour-app.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+                <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG8} alt="" />
+          </div>
+          <h3>Rudder and Moor | Yacht Website</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="http://www.rudderandmoor.com/index"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Get Properties</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://get.properties/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live
+            </a>
+          </div>
+        </article>
+        
         
       </div>
     </section>
