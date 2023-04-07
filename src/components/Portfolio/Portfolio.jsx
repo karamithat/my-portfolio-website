@@ -8,6 +8,8 @@ import IMG5 from "../../assets/portfolio5.PNG";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
+import IMG9 from "../../assets/portfolio9.png";
+
 
 const Portfolio = () => {
   return (
@@ -197,6 +199,28 @@ const Portfolio = () => {
               target="_blank"
             >
               Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG9} alt="" />
+          </div>
+          <h3>Simpsons Character App</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/simpsons-character-app"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://simpsons-character-app.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
             </a>
           </div>
         </article>
