@@ -9,6 +9,7 @@ import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
 import IMG9 from "../../assets/portfolio9.png";
+import IMG10 from "../../assets/portfolio10.png"
 
 
 const Portfolio = () => {
@@ -196,6 +197,28 @@ const Portfolio = () => {
             </a>
             <a
               href="https://simpsons-character-app.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG10} alt="" />
+          </div>
+          <h3>Vodi Movie App</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/vodi-app"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://vodi-app.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
