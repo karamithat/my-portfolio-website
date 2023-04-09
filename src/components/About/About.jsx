@@ -50,6 +50,9 @@ const About = () => {
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
+          <a target="_blank" href="https://www.linkedin.com/in/mithat-kara/" className="btn btn-primary">
+           LinkedIn
+          </a>
         </div>
       </div>
     </section>

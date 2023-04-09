@@ -150,36 +150,15 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-                <article className="portfolio__item">
+
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG7} alt="" />
           </div>
-          <h3>Wonder Tour App</h3>
+          <h3>Get Properties</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/karamithat/wander-tour-app"
-              className="btn "
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://wonder-tour-app.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-                <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG8} alt="" />
-          </div>
-          <h3>Rudder and Moor | Yacht Website</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="http://www.rudderandmoor.com/index"
+              href="https://get.properties/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -189,12 +168,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG7} alt="" />
+            <img src={IMG8} alt="" />
           </div>
-          <h3>Get Properties</h3>
+          <h3>Rudder and Moor | Yacht Website</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://get.properties/"
+              href="http://www.rudderandmoor.com/index"
               className="btn btn-primary"
               target="_blank"
             >
