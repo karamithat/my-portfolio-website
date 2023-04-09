@@ -6,6 +6,10 @@ import { SiJavascript } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiJquery } from "react-icons/si";
+import {SiTypescript} from "react-icons/si"
+import {SiTailwindcss} from "react-icons/si"
+
+
 
 const Experience = () => {
   return (
@@ -56,6 +60,21 @@ const Experience = () => {
               <div>
                 <h4>JQUERY</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTypescript className="icon"/>
+              <div>
+                <h4>TYPESCRIPT</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+ 
+            <article className="experience__details">
+              <SiTailwindcss className="icon"/>
+              <div>
+                <h4>TAILWIND</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

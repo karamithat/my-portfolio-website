@@ -1,7 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import { AiFillMediumCircle } from "react-icons/ai";
 
 const HeaderSocials = () => {
   return (
@@ -12,8 +12,8 @@ const HeaderSocials = () => {
       <a href="https://github.com/karamithat" target="_blank">
         <BsGithub />
       </a>
-      <a href="https://twitter.com/Bonuzinho" target="_blank">
-        <BsTwitter />
+      <a href="https://medium.com/@mithatkara93" target="_blank">
+        <AiFillMediumCircle />
       </a>
     </div>
   );
