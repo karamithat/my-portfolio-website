@@ -3,9 +3,15 @@ import "./Experience.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiJquery } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
+import { SiRedis } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -38,23 +44,71 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <FaBootstrap className="icon"/>
+              <SiTailwindcss className="icon" />
               <div>
-                <h4>BOOTSTRAP</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>TAILWIND CSS</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <FaReact className="icon"/>
+              <FaReact className="icon" />
               <div>
                 <h4>REACT</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <SiJquery className="icon"/>
+              <SiNextdotjs className="icon" />
               <div>
-                <h4>JQUERY</h4>
+                <h4>NEXT.JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <FaNodeJs className="icon" />
+              <div>
+                <h4>NODE.JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiExpress className="icon" />
+              <div>
+                <h4>EXPRESS.JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb className="icon" />
+              <div>
+                <h4>MONGODB</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiPostgresql className="icon" />
+              <div>
+                <h4>POSTGRESQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiPrisma className="icon" />
+              <div>
+                <h4>PRISMA</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiRedis className="icon" />
+              <div>
+                <h4>REDIS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

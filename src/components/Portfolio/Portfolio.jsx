@@ -9,8 +9,10 @@ import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
 import IMG9 from "../../assets/portfolio9.png";
-import IMG10 from "../../assets/portfolio10.png"
-
+import IMG10 from "../../assets/portfolio10.png";
+import IMG11 from "../../assets/portfolio11.png";
+import IMG12 from "../../assets/portfolio12.png";
+import IMG13 from "../../assets/portfolio13.png";
 
 const Portfolio = () => {
   return (
@@ -107,7 +109,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-         <article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
@@ -226,8 +228,65 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        
-        
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG11} alt="" />
+          </div>
+          <h3>Eventify-Event App</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/eventify"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG12} alt="" />
+          </div>
+          <h3>Chatty</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/chatty"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://chat-app-2hve.onrender.com/login"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG13} alt="" />
+          </div>
+          <h3>Foodzy</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/karamithat/foodzy"
+              className="btn "
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://foodzy-mocha.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
